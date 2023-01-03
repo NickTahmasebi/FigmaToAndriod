@@ -1,0 +1,454 @@
+{
+  "name": "front_page",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "yRtkvymfANjFhLHZ8lBfWi",
+    "node": "105:584",
+    "version": "2819627163",
+    "component-id": "9c43f56c4c912d8bb359e2827855a853c4253e2f"
+  },
+  "default": "Front page",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "Begynd at byg dit personlige portefølje af velgørenhed i dag!"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3"
+      },
+      {
+        "type": "group",
+        "id": "SignUp Button"
+      },
+      {
+        "type": "group",
+        "id": "LoginButton"
+      },
+      {
+        "type": "group",
+        "id": "MåskeSenereButton"
+      },
+      {
+        "type": "image",
+        "id": "Name"
+      },
+      {
+        "type": "vector",
+        "id": "Sign up"
+      },
+      {
+        "type": "text",
+        "id": "Signup"
+      },
+      {
+        "type": "vector",
+        "id": "Log in"
+      },
+      {
+        "type": "text",
+        "id": "Log ind"
+      },
+      {
+        "type": "text",
+        "id": "måske senere"
+      }
+    ],
+    "modes": {
+      "Front page": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Logo",
+              "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+              "Frame 3",
+              "SignUp Button",
+              "LoginButton",
+              "MåskeSenereButton",
+              "Name"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "73.84615384615378",
+              "saturation": "0.05263157894736847",
+              "value": "0.9686274509803922"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "52.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "181.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "257.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "250.0"
+              }
+            },
+            "image-content": "logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "162.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "95.29411764705883",
+              "saturation": "0.5930232558139534",
+              "value": "0.33725490196078434"
+            },
+            "text-content": "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "213.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "516.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "SignUp Button",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "213.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "514.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Sign up",
+              "Signup"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "LoginButton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "39.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "514.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Log in",
+              "Log ind"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "MåskeSenereButton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "135.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "622.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "måske senere"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Name",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "27.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "31.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "346.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "93.0"
+              }
+            },
+            "image-content": "name.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Sign up",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "sign_up.svg"
+          },
+          {
+            "id": "Signup",
+            "margin": {
+              "left": "24.0",
+              "top": "12.0",
+              "right": "23.0",
+              "bottom": "12.0"
+            },
+            "tap-handler": "$SignUpButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Sign up",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Log in",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "log_in.svg"
+          },
+          {
+            "id": "Log ind",
+            "margin": {
+              "left": "25.0",
+              "top": "11.0",
+              "right": "25.0",
+              "bottom": "12.0"
+            },
+            "tap-handler": "$LoginButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Log ind",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "måske senere",
+            "tap-handler": "$MåskeSenereButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "0.8",
+              "hue": "96.47058823529412",
+              "saturation": "0.5930232558139534",
+              "value": "0.33725490196078434"
+            },
+            "text-content": "måske senere",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter",
+            "underline": "true"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "SignUpButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "LoginButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "MåskeSenereButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Front page",
+      "size": {
+        "width": 400.0,
+        "height": 818.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
