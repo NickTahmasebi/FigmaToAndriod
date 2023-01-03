@@ -1,0 +1,446 @@
+{
+  "name": "front_page",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "yRtkvymfANjFhLHZ8lBfWi",
+    "node": "105:584",
+    "version": "2818811676",
+    "component-id": "9c43f56c4c912d8bb359e2827855a853c4253e2f"
+  },
+  "default": "Front page",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "text",
+        "id": "Be kind"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "Begynd at byg dit personlige portefølje af velgørenhed i dag!"
+      },
+      {
+        "type": "vector",
+        "id": "Navn"
+      },
+      {
+        "type": "vector",
+        "id": "Log in"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3"
+      },
+      {
+        "type": "text",
+        "id": "Log ind"
+      },
+      {
+        "type": "text",
+        "id": "Sign up"
+      },
+      {
+        "type": "text",
+        "id": "måske senere"
+      },
+      {
+        "type": "vector",
+        "id": "Sign up1"
+      }
+    ],
+    "modes": {
+      "Front page": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 3",
+              "Be kind",
+              "Logo",
+              "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+              "Navn",
+              "Log in",
+              "Frame 3",
+              "Log ind",
+              "Sign up",
+              "måske senere"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "73.84615384615378",
+              "saturation": "0.05263157894736847",
+              "value": "0.9686274509803922"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "80.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "61.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "220.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "90.0"
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Be kind",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "142.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "100.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Be kind ",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "52.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "181.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "257.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "250.0"
+              }
+            },
+            "image-content": "logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "162.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "95.29411764705883",
+              "saturation": "0.5930232558139534",
+              "value": "0.33725490196078434"
+            },
+            "text-content": "Begynd at byg dit personlige portefølje af velgørenhed i dag!",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Navn",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "56.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "297.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              }
+            },
+            "vector-content": "navn.svg"
+          },
+          {
+            "id": "Log in",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "47.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "516.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "vector-content": "log_in.svg"
+          },
+          {
+            "id": "Frame 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "213.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "516.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Sign up1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Log ind",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "72.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "527.0"
+              }
+            },
+            "tap-handler": "$FC LI oC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Log ind",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Sign up",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "237.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "527.0"
+              }
+            },
+            "tap-handler": "$FC SU oC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Sign up",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "måske senere",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "135.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "597.0"
+              }
+            },
+            "tap-handler": "$FC MS oC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "0.8",
+              "hue": "96.47058823529412",
+              "saturation": "0.5930232558139534",
+              "value": "0.33725490196078434"
+            },
+            "text-content": "måske senere",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter",
+            "underline": "true"
+          },
+          {
+            "id": "Sign up1",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "vector-content": "sign_up.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "FC LI oC": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "FC SU oC": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "FC MS oC": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Front page",
+      "size": {
+        "width": 400.0,
+        "height": 818.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
